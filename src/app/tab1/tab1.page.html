@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title expand="block">
+      Food Center
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <ion-img src="/assets/indo.jpeg"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>Mulai </ion-card-subtitle>
+        <ion-card-title>Welcome to Aplikasi Resep Aneka makanan dan Kue</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Resep-resep kue dan makanan khas nusantara terdapat diaplikasi ini enjoy  make it</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-list fill="none">
+      <ion-list-header>
+        <ion-label fill="outline">Menu</ion-label>
+      </ion-list-header>
+      <ion-item class=" item item-avatar">
+        <img src="assets/khasnew.png">
+        <ion-button fill="outline" routerLink="/khas" routerDirection="root">
+        Resep Masakan Khas Nusantara
+        </ion-button>
+      </ion-item>
+      <ion-item class=" item item-avatar">
+        <img src="assets/cake.png">
+        <ion-button fill="outline" routerLink="/materi" routerDirection="root">
+        Resep Aneka Kue
+        </ion-button>
+      </ion-item>
+      
+      <ion-item class=" item item-avatar">
+          <img src="assets/share1.png">
+          <ion-button fill="outline" routerLink="/sharing" routerDirection="root">
+          share resep 
+          </ion-button>
+        </ion-item>
+        <ion-item class=" item item-avatar">
+            <img src="assets/profi.png">
+        <ion-button expand=" " routerLink="/about" routerDirection="root">
+        about
+        </ion-button>
+      </ion-item>
+    </ion-list>
+</ion-content>

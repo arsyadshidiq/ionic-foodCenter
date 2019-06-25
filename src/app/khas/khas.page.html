@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Masakan Khas Nusantara</ion-title>
+   
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-card class="welcome-card">
+        <ion-img src="/assets/indo.jpeg"></ion-img>
+        <ion-card-header>
+          <ion-card-title>Berikut Daftar Masakan Khas Teratas Nusantara</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Resep-resep  makanan khas nusantara </p>
+        </ion-card-content>
+      </ion-card>
+      <ion-list fill="outline">
+        <ion-list-header>
+          <ion-label fill="outline">Menu</ion-label>
+        </ion-list-header>
+        <ion-item class="item-thumbnail-left">
+          <img src="assets/khas1new.jpg">
+          <ion-button fill="outline" routerLink="/khas1" routerDirection="root">
+          1.pepes/botok pare
+          </ion-button>
+        </ion-item>
+        <ion-item class="item-thumbnail-left">
+            <img src="assets/khas2new.jpg">
+          <ion-button fill="outline" routerLink="/khas2" routerDirection="root">
+          2.Ayam rica
+          </ion-button>
+        </ion-item>
+        <ion-item class="item-thumbnail-left">
+            <img src="assets/khas3new.jpg">
+          <ion-button fill="outline" routerLink="/khas3" routerDirection="root">
+          3. Soto Bening Ayam
+          </ion-button>
+        </ion-item>
+        <ion-item class="item-thumbnail-left">
+            <img src="assets/khas4new.jpg">
+          <ion-button fill="outline" routerLink="/khas4" routerDirection="root">
+          4. Ikan Bakar Dabu2
+          </ion-button>
+        </ion-item>
+        <ion-item class="item-thumbnail-left">
+            <img src="assets/khas5new.jpg">
+            <ion-button fill="outline" routerLink="/khas5" routerDirection="root">
+           5. Seblak mercon
+            </ion-button>
+          </ion-item>
+          <ion-item class="item-thumbnail-left" href="https://cookpad.com">
+            <img src="assets/cok.png">
+            <ion-button onclick="alert('Menu ini butuh koneksi internet!!!')">lihat Resep Lebih</ion-button>
+          </ion-item> 
+          <ion-item>
+
+          </ion-item>
+          
+          <ion-tabs>
+  
+              <ion-tab-bar slot="bottom">
+                <ion-tab-button tab="tab1">
+                  <ion-icon name="flash"></ion-icon>
+                  <ion-button expand="block" routerLink="/tabs/tab1" routerDirection="root">
+                    home
+                    </ion-button>
+                  </ion-tab-button>
+            
+              
+                  
+            
+                <ion-tab-button tab="tab3">
+                  <ion-icon name="app"></ion-icon>
+                  <ion-item href="https://cookpad.com">
+                    <ion-icon name="grid" ></ion-icon>
+                    <ion-button fill="outline">internet</ion-button>
+                  </ion-item> </ion-tab-button>
+              </ion-tab-bar>
+            
+            </ion-tabs>
+          
+      </ion-list>
+  
+
+
+
+     </ion-content>
